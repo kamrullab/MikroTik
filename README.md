@@ -5,16 +5,16 @@
 This guide provides step-by-step instructions for setting up a MikroTik router in an ISP environment using both the **GUI (Winbox)** and **CLI (Command-Line Interface)**. It covers **basic internet setup**, **Hotspot creation**, **DHCP**, **firewall configuration**, **VLAN isolation**, and **bandwidth control**.
 
 ## Table of Contents
-1. [Initial Setup (GUI and CLI)](#1-initial-setup)
-2. [Basic Internet Configuration (GUI and CLI)](#2-basic-internet-configuration)
-3. [Creating a Hotspot (GUI and CLI)](#3-creating-a-hotspot)
-4. [NAT and Firewall Setup (GUI and CLI)](#4-nat-and-firewall-setup)
-5. [Setting Up DHCP Server (GUI and CLI)](#5-setting-up-dhcp-server)
-6. [VLAN and User Isolation (GUI and CLI)](#6-vlan-and-user-isolation)
-7. [Bandwidth Control (GUI and CLI)](#7-bandwidth-control)
-8. [Remote Management (GUI and CLI)](#8-remote-management)
-9. [System Monitoring (GUI and CLI)](#9-system-monitoring)
-10. [Backup and Security (GUI and CLI)](#10-backup-and-security)
+1. [Initial Setup (GUI and CLI)](#1-initial-setup-gui-and-cli)
+2. [Basic Internet Configuration (GUI and CLI)](#2-basic-internet-configuration-gui-and-cli)
+3. [Creating a Hotspot (GUI and CLI)](#3-creating-a-hotspot-gui-and-cli)
+4. [NAT and Firewall Setup (GUI and CLI)](#4-nat-and-firewall-setup-gui-and-cli)
+5. [Setting Up DHCP Server (GUI and CLI)](#5-setting-up-dhcp-server-gui-and-cli)
+6. [VLAN and User Isolation (GUI and CLI)](#6-vlan-and-user-isolation-gui-and-cli)
+7. [Bandwidth Control (GUI and CLI)](#7-bandwidth-control-gui-and-cli)
+8. [Remote Management (GUI and CLI)](#8-remote-management-gui-and-cli)
+9. [System Monitoring (GUI and CLI)](#9-system-monitoring-gui-and-cli)
+10. [Backup and Security (GUI and CLI)](#10-backup-and-security-gui-and-cli)
 11. [Important Links and Resources](#11-important-links-and-resources)
 
 ---
@@ -187,10 +187,10 @@ This guide provides step-by-step instructions for setting up a MikroTik router i
 ### GUI Mode (Winbox)
 
 **Step 1: Enable SSH Access**
-1. Go to **IP** >
+1. Go to **IP** > **Services**.
+2. Double-click on **SSH**, set the **Port** to `22`,
 
- **Services**.
-2. Double-click on **SSH**, set the **Port** to `22`, and restrict the **Address** to trusted IPs only.
+ and restrict the **Address** to trusted IPs only.
 
 **Step 2: Set Up VPN**
 1. Go to **PPP** > **L2TP Server**.
@@ -262,5 +262,4 @@ This guide provides a comprehensive solution for setting up a MikroTik router in
 
 **Author**: Kamrul Hossain  
 **License**: MIT License
-
 
