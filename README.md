@@ -1,7 +1,5 @@
 
 
----
-
 # MikroTik ISP Router Full Configuration Guide (GUI and CLI)
 
 This guide provides step-by-step instructions for setting up a MikroTik router in an ISP environment using both the **GUI (Winbox)** and **CLI (Command-Line Interface)**. It covers **basic internet setup**, **Hotspot creation**, **DHCP**, **firewall configuration**, **VLAN isolation**, and **bandwidth control**.
@@ -265,4 +263,4 @@ This guide provides a comprehensive solution for setting up a MikroTik router in
 **Author**: Kamrul Hossain  
 **License**: MIT License
 
----
+
